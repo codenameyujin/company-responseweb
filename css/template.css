@@ -49,7 +49,7 @@
 .board_wrap .pagenation{font-size:0;text-align:center;margin-top:50px;color:transparent;}
 .board_wrap .pagenation > div{vertical-align:middle;display:inline-block;}
 .board_wrap .pagenation .page_navi a{width:20px;height:20px;position:relative;}
-.board_wrap .pagenation .page_navi a:before{content:"";display:block;position:absolute;background:url(../img_new/common/icon_left_arrow.png) no-repeat left top;top:calc(50% - 7px);left:calc(50% - 4px);width:13px;height:15px;}
+.board_wrap .pagenation .page_navi a:before{content:"";display:block;position:absolute;background:url(../images/img/arrow-left-double.png) no-repeat left top;top:calc(50% - 7px);left:calc(50% - 4px);width:13px;height:15px;}
 .board_wrap .pagenation .page_navi a:hover:before{background-position-x:-13px;}
 .board_wrap .pagenation .page_navi.next a:before{transform:scaleX(-1);}
 .board_wrap .pagenation .page_navi a.prev_btn5:before,
@@ -184,7 +184,7 @@
     .board_wrap .magazine_list .context:after{bottom: -31px;}
     .board_wrap .magazine_list .context + .context{margin-top: 61px;}
     .board_wrap .magazine_list .context .title{font-size: 20px;margin-bottom: 10px;line-height: 24px;}
-    .board_wrap .magazine_list .context .subtitle{font-size: 16px;line-height: 20px;}
+    .board_wrap .magazine_list .context .subtitle{font-size: 14px;line-height: 20px;}
 }
 @media (max-width:640px) {
     .board_wrap .magazine_list{margin-bottom: 50px;}
