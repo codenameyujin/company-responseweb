@@ -169,4 +169,14 @@ $(function() {
     };
 
     includeHtml();
+
+    AOS.init({
+		once: true,
+		startEvent: 'load',
+		//offset: 0,
+		disable: function() {
+			var maxWidth = 1024;
+			return window.innerWidth < maxWidth;
+		}
+	});
 })();
