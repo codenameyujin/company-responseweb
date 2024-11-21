@@ -113,6 +113,9 @@
 .main .sec02 .mask_text.type3 .zoom_circle { background-image: url(../images/img/brand_3.jpg); } 
 .main .sec02 .mask_text.type4 .zoom_circle { background-image: url(../images/img/brand_4.jpg); } 
 .main .sec02 .mask_text.type5 .zoom_circle { background-image: url(../images/img/brand_5.jpg); } 
+.main .sec02 .mask_text.type6 .zoom_circle { background-image: url(../images/img/brand_6.jpg); } 
+.main .sec02 .mask_text.type7 .zoom_circle { background-image: url(../images/img/brand_7.jpg); } 
+.main .sec02 .mask_text.type8 .zoom_circle { background-image: url(../images/img/brand_8.jpg); } 
 .main .sec02 .tab_box { font-size: 0; margin: 50px 0; } 
 .main .sec02 .tab_box .brand_tab { width: 120px; height: 45px; box-sizing: border-box; border: 1px solid #181818; font-size: 18px; font-weight: 700; background-color: transparent; border-radius: 29px; } 
 .main .sec02 .tab_box .brand_tab + .brand_tab { margin-left: 20px; } 
@@ -137,6 +140,9 @@
  .main .sec02 .mask_text.type3:before { background-image: url(../images/img/brand_3.jpg); } 
  .main .sec02 .mask_text.type4:before { background-image: url(../images/img/brand_4.jpg); } 
  .main .sec02 .mask_text.type5:before { background-image: url(../images/img/brand_5.jpg); } 
+ .main .sec02 .mask_text.type6:before { background-image: url(../images/img/brand_6.jpg); } 
+ .main .sec02 .mask_text.type7:before { background-image: url(../images/img/brand_7.jpg); } 
+ .main .sec02 .mask_text.type8:before { background-image: url(../images/img/brand_8.jpg); } 
  .main .sec02 .mask_text .zoom_circle { background-size: 1200px; width: 100%; height: 100%; top: 0; left: 0; clip-path: circle(0%); } 
  .main .sec02 .mask_text.on .zoom_circle.on { clip-path: circle(100%); transition: clip-path 1s 800ms ease-out; } 
 
