@@ -2,8 +2,6 @@
 
 .yc_esg #sub_banner .sub_visual .visual_img{background-image:url(../img_new/esg/bg.jpg);}
 
-
-/* 사회 신규 김진솔*/
 .yc_social #content{padding-bottom: 0;}
 .yc_social .tab_match{width:1000px;margin:0 auto;}
 .yc_social .matchbox{padding-top:130px;}
@@ -141,8 +139,6 @@
 }
 /* 사회 끝 */
 
-
-/* 환경 신규 김진솔 */
 .yc_enviment{position:relative;}
 .yc_enviment #content{padding-bottom:0;}
 .yc_enviment .matchbox1{position:relative;padding-top:119px;padding-bottom:100px;}

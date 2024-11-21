@@ -132,17 +132,27 @@ $(function() {
     $('.sec02 .tab_box .brand_tab').on('click',function() {
         let thisIndex = Number($(this).index()) + 1;
         $(this).addClass('active').siblings().removeClass('active');
-        $('.sec02 .mask_text').removeClass('type1 type2 type3 type4 type5').addClass('type'+thisIndex).find('.zoom_circle'+thisIndex).addClass('on').siblings().removeClass('on');
+        $('.sec02 .mask_text').removeClass('type1 type2 type3 type4 type5 type6 type7 type8').addClass('type'+thisIndex).find('.zoom_circle'+thisIndex).addClass('on').siblings().removeClass('on');
         $('.sec02 .matchbox .matchtext').eq(thisIndex - 1).addClass('active').siblings().removeClass('active');
 
         let route = '';
         if(lang != 'ko') route = lang;
         if(thisIndex === 1) {
-            $('.sec02 .linkbox a').attr('href',route+'/corporation/about_yuhancare');
+            $('.sec02 .linkbox a').attr('href',route+'/about.html');
         } else if(thisIndex === 2) {
-            $('.sec02 .linkbox a').attr('href',route+'/value/brand');
-        } else {
-            $('.sec02 .linkbox a').attr('href','/culture/talent');
+            $('.sec02 .linkbox a').attr('href',route+'/product_2.html');
+        } else if(thisIndex === 3) {
+            $('.sec02 .linkbox a').attr('href',route+'/product_3.html');
+        } else if(thisIndex === 4) {
+            $('.sec02 .linkbox a').attr('href',route+'/product_4.html');
+        } else if(thisIndex === 5) {
+            $('.sec02 .linkbox a').attr('href',route+'/product_5.html');
+        } else if(thisIndex === 6) {
+            $('.sec02 .linkbox a').attr('href',route+'/product_6.html');
+        } else if(thisIndex === 7) {
+            $('.sec02 .linkbox a').attr('href',route+'/product_7.html');
+        } else if(thisIndex === 8) {
+            $('.sec02 .linkbox a').attr('href',route+'/product_8.html');
         }
     });
 });
