@@ -44,7 +44,7 @@
 .yc_contactus .doc_content .conbox{display: flex;}
 .yc_contactus .doc_content .conbox + .conbox{margin-top: 30px;}
 .yc_contactus .doc_content .conbox .con_title{width: 150px;font-size: 24px;font-weight: 600;padding-top: 13px;position:relative;}
-.yc_contactus .doc_content .conbox .con_title:before{content: "";display: block;position: absolute;width: 6px;height: 6px;background-color: #352C8C;left: -15px;top: 22px;border-radius: 50%;}
+.yc_contactus .doc_content .conbox .con_title:before{content: "";display: block;position: absolute;width: 6px;height: 6px;background-color: #315B9F;left: -15px;top: 22px;border-radius: 50%;}
 .yc_contactus .doc_content .conbox .con_title.no-require:before{display: none;}
 .yc_contactus .doc_content .conbox .con_input{width: calc(100% - 150px);position:relative;font-size: 0;}
 .yc_contactus .doc_content .conbox .con_input ::placeholder{color: #ccc;}
@@ -63,7 +63,7 @@
 .yc_contactus .doc_content .privacy_agree .fake_chk .label label{width: 24px;height: 24px;background-color: #f8f8f8;border-radius: 50%;vertical-align: middle;margin-right: 10px;}
 .yc_contactus .doc_content .privacy_agree .fake_chk button{font-size: 18px;font-weight: 500;}
 .yc_contactus .doc_content .privacy_agree .fake_chk button span{text-decoration: underline;text-underline-position: under;}
-.yc_contactus .doc_content .privacy_agree #privacy:checked + .fake_chk .label{background-color: #352C8C;color: white;}
+.yc_contactus .doc_content .privacy_agree #privacy:checked + .fake_chk .label{background-color: #315B9F;color: white;}
 .yc_contactus .doc_content .privacy_agree #privacy:checked + .fake_chk .label label{background: white url(../images/img/check.svg) no-repeat center / 24px;}
 .yc_contactus .doc_content .privacy_agree .privacy_popup{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.7);z-index:100;display: none;}
 .yc_contactus .doc_content .privacy_agree .privacy_popup.active{display: block;}
