@@ -252,7 +252,6 @@ body[data-top="no-top"] #header .logo_box .logo{background-image:url(../images/i
 .footer_top .link_list .link_open:before{display:block;position:absolute;top:8px;right:20px;width:20px;height: 20px;background:url(../images/img/arrow-down.svg) no-repeat center / contain;transition:250ms ease-in-out;content:"";}
 .footer_top .link_list .link_open.on{border-bottom-left-radius:0;border-bottom-right-radius:0;}
 .footer_top .link_list .link_open.on:before{transform:scaleY(-1);}
-.footer_top .family_site{}
 .footer_top .family_site .link_open{background-color:#e5e5e5;}
 .footer_top .company_info{margin-left:20px;}
 .footer_top .company_info .link_open{border:1px solid #181818;background-color:#f8f8f8;}

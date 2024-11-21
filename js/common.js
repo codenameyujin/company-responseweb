@@ -153,19 +153,19 @@ let lang = $('html').attr('lang');
 
 
         var langOpen = '',
-            lagnClose = '';
+            langClose = '';
         if(lang == 'ko') {
             langOpen = '열기';
-            lagnClose = '닫기';
+            langClose = '닫기';
         } else if(lang == 'en') {
             langOpen = 'open';
-            lagnClose = 'close';
+            langClose = 'close';
         }
         //언어설정 열기
         $('.lang_select').on('click', function() {
             if($(this).attr('title') === langOpen) {
-                $(this).addClass('on').attr('title',lagnClose);
-            } else if($(this).attr('title') === lagnClose) {
+                $(this).addClass('on').attr('title',langClose);
+            } else if($(this).attr('title') === langClose) {
                 $(this).removeClass('on').attr('title',langOpen);
             }
         });
@@ -175,7 +175,7 @@ let lang = $('html').attr('lang');
             if($(this).attr('title') === langOpen) {
                 // $('.link_open').attr('title',langOpen).removeClass('on');
                 // $('.link_open + ul').removeClass('active');
-                $(this).attr('title',lagnClose).addClass('on').siblings('ul').addClass('active');
+                $(this).attr('title',langClose).addClass('on').siblings('ul').addClass('active');
             } else {
                 $(this).attr('title',langOpen).removeClass('on').siblings('ul').removeClass('active');
             }
